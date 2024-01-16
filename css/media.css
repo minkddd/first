@@ -1,0 +1,243 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@media screen and (max-width : 600px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* 모바일용 폰트 */
+    .heading {
+        /* mobile/heading */
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100.625%;
+        /* 48.3px */
+        letter-spacing: -0.96px;
+        margin-bottom: 260px;
+    }
+
+    .heading2 {
+        /* mobile/heading2 */
+        font-family: 'Pretendard', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .heading3 {
+        /* mobile/heeading3 */
+        font-family: 'Pretendard', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+
+    .tit {
+        /* mobile/tit */
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .tit2 {
+        /* mobile/tit2 */
+        font-family: 'Pretendard', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .body {
+        /* mobile/body */
+        font-family: 'Pretendard', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .bodyM {
+        /* mobile/body */
+        font-family: 'Pretendard', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 25.6px */
+    }
+
+    .caption {
+        color: #444;
+        /* mobile/caption */
+        font-family: 'Pretendard', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .linewrap {
+        display: none;
+    }
+
+    header {
+        padding: 8px 20px;
+    }
+
+    header span {
+        display: none;
+    }
+
+    .home_main {
+        padding-top: 50px;
+        height: 536px;
+    }
+
+    .home_main .txt p {
+        margin-bottom: 16px;
+    }
+
+    .home_main img {
+        max-width: 320px;
+        object-fit: cover;
+        top: 200px;
+    }
+
+    .home_main .orange {
+        position: absolute;
+        right: 120px;
+        top: 220px;
+        z-index: -1;
+        max-width: 200px;
+    }
+
+    .home_sub {
+        margin-top: 60px;
+        position: relative;
+        width: 100%;
+        height: 662px;
+    }
+
+    .shoes1 {
+        max-width: 161px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .shoes2 {
+        max-width: 150px;
+        position: absolute;
+        right: 0;
+        top: 131px;
+    }
+
+    .shoes3 {
+        max-width: 164px;
+        position: absolute;
+        right: 58px;
+        bottom: 0;
+    }
+
+    .home_sub .txt {
+        width: 100%;
+        text-align: left;
+        margin-top: 60px;
+    }
+
+    section h2 {
+        margin-bottom: 30px;
+    }
+
+    #works img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    #works .work2 img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    #works .contents>div {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    #works .contents>div .txt h3 {
+        margin-bottom: 8px;
+    }
+
+    #works .contents>div .txt p {
+        margin-bottom: 6px;
+    }
+    #works .contents>div .txt p.caption{
+        margin-bottom: 8px;
+    }
+    #works .contents>div .txt a.heading2{
+        width: 100%;
+        height: 50px;
+    }
+
+    #works .contents>div.even {
+        flex-direction: column;
+        gap: 8px;
+        text-align: left;
+    }
+
+    #works .contents>div .txt {
+        width: 100%;
+    }
+
+    main {
+        gap: 60px;
+    }
+
+    #clone ul {
+        width: 100%;
+        height: 280px;
+    }
+
+    #clone ul li {
+        width: 70%;
+        height: 224px;
+    }
+
+    .cloneSwiper .swiper-slide-active {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+    #contact{
+        height: 214px;
+    }
+    #contact h2 {
+        width: 147px;
+    }
+    #contact h2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+}

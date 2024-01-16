@@ -1,0 +1,608 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    background-image: url(../img/main_visual/header.png);
+    /* 피그마에서 헤더를 익스포트하면 갈색에 이미지 흐릿하게 들어간 거 그대로 나옴 */
+    background-size: 100% 662px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+header h1 {
+    float: left;
+}
+
+header h1 a {
+    display: block;
+    padding: 36.52px 0;
+}
+
+header nav {
+    float: right;
+    padding: 38px 0;
+    height: 24px;
+}
+
+header nav ul li {
+    float: left;
+}
+header nav ul li:hover a{
+    color: black;
+    font-weight: 700;
+}
+
+
+header nav ul li a {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 14px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header nav ul li a i {
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+/* 메인 컨텐츠 */
+
+.main_visual {
+    width: 100%;
+    height: 698px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.40);
+    overflow: hidden;
+    position: relative;
+}
+
+.main_visual ul.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.main_visual ul.slide li {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+
+.main_visual ul.slide li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_visual ul.slide li p {
+    position: absolute;
+    right: 7.12rem;
+    top: 25.5rem;
+    color: #FFF;
+    text-align: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.main_visual .btn_all {
+    /* 왼쪽 오른쪽 버튼 */
+    position: absolute;
+    bottom: 3.69rem;
+    width: 100%;
+}
+
+.main_visual .btn_all button {
+    background: transparent;
+    border: 0;
+    padding: 0 2.69rem;
+}
+
+.main_visual .btn_all button.before {
+    float: left;
+}
+
+.main_visual .btn_all button.after {
+    float: right;
+}
+
+
+.main_visual ul.pager {
+    position: absolute;
+    left: 50%;
+    bottom: 3.69rem;
+    transform: translateX(-50%);
+}
+
+.main_visual ul.pager li {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin: 10px;
+}
+
+.main_visual ul.pager li.on {
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    background: transparent;
+    box-sizing: border-box;
+    padding: 2px;
+    width: 12px;
+    height: 12px;
+}
+
+/* brand story */
+.story {
+    height: 55rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 8.25rem;
+}
+
+.story h2 {
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.45rem;
+}
+
+.story p {
+    width: 70%;
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.225rem;
+    margin: 2.56rem auto 7rem;
+}
+
+.story>a {
+    box-sizing: border-box;
+    width: 12.5625rem;
+    height: 2.9375rem;
+    padding: 0.75rem 3.25rem 0.6875rem 3.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.125rem;
+    border: 1px solid #000;
+    margin: 0 auto 5.13rem;
+    transition: 0.4s;
+}
+.story>a:hover {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+}
+
+.story ul {
+    width: 68.0625rem;
+    margin: 7rem auto;
+}
+
+.story ul li {
+    width: 25%;
+    float: left;
+    transition: 0.6s;
+}
+.story ul li:hover {
+    transform: translateY(-1.5rem);
+}
+
+
+.story ul li img {
+    width: 12.1875rem;
+    height: 12.1875rem;
+}
+
+/* 공통 */
+
+ .tit h3 {
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    float: left;
+    margin-bottom: 4.12rem;
+}
+
+ .tit a img {
+    width: 3.375rem;
+    height: 3.375rem;
+    float: right;
+    transition: .4s;
+}
+ .tit a:hover img {
+    scale: 1.2;
+}
+
+/* membership */
+.member section {
+    width: 100%;
+    height: 46rem;
+    margin: 3rem auto 10rem;
+}
+
+.member section>img {
+    width: 63.5rem;
+    height: 37.8125rem;
+    flex-shrink: 0;
+    float: left;
+}
+
+.member section .txt {
+    float: right;
+    padding: 15.75rem 0 11.69rem 3.19rem;
+}
+
+.member section h4 {
+    color: #333;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.member section p {
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.88rem;
+    margin-bottom: 2.31rem;
+}
+
+.member section .txt a {
+    display: flex;
+    box-sizing: border-box;
+    width: 10.6875rem;
+    height: 3.3125rem;
+    padding: 0.9375rem 2.3125rem 0.875rem 2.3125rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    border: 1px solid #000;
+    transition: .4s;
+}
+.member section .txt a:hover{
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+}
+
+.member section:last-child>img {
+    float: right;
+}
+
+.member section:last-child .txt {
+    float: left;
+    padding-left: 0;
+}
+
+
+/* 프로모션 */
+.promo {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.promo ul {
+    width: 70.75rem;
+    height: 82.5rem;
+    /* margin: 7.94rem auto; */
+    margin: 0 auto;
+}
+
+.promo ul li {
+    width: 22.5625rem;
+    height: 32.25rem;
+    float: left;
+    margin-top: 9rem;
+    border: 1px solid #CCC;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    transition: .6s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.promo ul li:nth-child(3n-1) {
+    margin: 0 1.5rem 9rem;
+}
+.promo ul li:hover {
+    transform: translateY(-2rem);
+}
+
+
+.promo ul li a {
+    display: block;
+}
+
+.promo ul li a img {
+    width: 22.5625rem;
+    height: 18.375rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.promo ul li a .txt {
+    padding: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.promo ul li a .txt .category {
+    width: fit-content;
+    padding: 0.3125rem 0.8125rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00A0C8;
+    color: #00A0C8;
+}
+
+.promo ul li a .txt h4 {
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0.41rem;
+
+}
+
+.promo ul li a .txt p {
+    color: #888;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.promo ul li a .txt p:last-child {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1.44rem;
+}
+
+/* event */
+.ev {
+    width: 100%;
+    padding: 7rem 0 10rem;
+}
+/* 모든 ul 공통 사항 */
+.ev ul li{
+    background-color: #000;
+    overflow: hidden;
+}
+.ev ul li img {
+    transition: 0.6s;
+}
+
+.ev ul li:hover img {
+    opacity: 0.5;
+    scale: 1.1;
+}
+.ev ul li a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.ev ul li:hover a {
+    transition: 1s;
+    display: block;
+
+}
+
+.ev ul li a h4 {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ev ul li a p {
+    font-weight: 100;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 왼쪽 영역 */
+.ev>ul {
+    float: left;
+    position: relative;
+    width: 49rem;
+    height: 33rem;
+}
+
+.ev>ul li {
+    position: absolute;
+    width: 16.0625rem;
+    height: 16.0625rem;
+}
+
+.ev>ul li:nth-child(1) {
+    left: 0;
+    top: 0;
+}
+
+.ev>ul li:nth-child(2) {
+    left: 0;
+    top: 16.25rem;
+}
+
+.ev>ul li:nth-child(3) {
+    height: 32.5rem;
+    left: 16.25rem;
+    top: 0;
+}
+
+.ev>ul li:nth-child(4) {
+    left: 32.5rem;
+    top: 0;
+}
+
+.ev>ul li:nth-child(5) {
+    left: 32.5rem;
+    top: 16.25rem;
+}
+
+.ev>ul li img {
+    display: inline-block;
+    width: 16.0625rem;
+    height: 16.0625rem;
+    object-fit: cover;
+}
+
+
+
+.ev>ul li:nth-child(3) img {
+    width: 16.0625rem;
+    height: 32.4375rem;
+    object-position: -350px;
+}
+
+
+/* 오른쪽 영역 */
+.ev .ev_right {
+    float: right;
+    width: 34.9375rem;
+    height: 32.4375rem;
+    position: relative;
+}
+.ev .ev_right ul {
+    position: relative;
+    width: 34.9375rem;
+    height: 32.5rem;
+
+}
+
+.ev .ev_right ul li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ev .ev_right ul li img {
+    width: 34.9375rem;
+    height: 19.6875rem;
+    object-fit: cover;
+}
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    padding: 2.44rem 0;
+    background-color: #5D4D41;
+    
+}
+
+footer h2 {
+    margin: 1.44rem 0;
+}
+
+
+footer address {
+    float: left;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 1.4rem */
+    margin-right: 6.44rem;
+    width: 24.375rem;
+    height: 7rem;
+}
+
+footer .container>ul {
+    float: left;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.514%;
+    /* 1.36075rem */
+    margin-right: 6rem;
+}
+
+footer .f_right {
+    float: left;
+    background: rgb(120, 96, 78);
+    box-sizing: border-box;
+    width: 29.875rem;
+    height: 7.3125rem;
+    padding: 1.25rem;
+}
+
+footer .f_right>ul {
+    /* 회사소개 텍스트리스트 */
+    float: left;
+}
+
+footer .f_right>ul li a {
+    display: block;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+footer .f_right .last {
+    /* sns 아이콘과 패밀리사이트 */
+    float: left;
+    margin: 0 4.06rem;
+}
+
+
+
+footer .f_right .last ul li {
+    float: left;
+}
+
+footer .f_right ul i {
+    font-size: 24px;
+    margin: 0.5rem;
+}

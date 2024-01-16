@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="2024 Kim Min Kyeong Portfolio">
+    <meta name="keywords" content="UIUX Design, Publishing, Portfolio">
+    <meta name="author" content="Kim Min Kyeong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울교통공사</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <script src="https://kit.fontawesome.com/33b7da9059.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="#"><img src="img/logo.svg" alt="서울교통공사"></a></h1>
+        <!-- 모바일버전 -->
+        <div class="ham">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav_m">
+            <div class="nav_m_top">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-language"></i>
+                <i class="fa-solid fa-xmark xbtn"></i>
+            </div><!-- //.nav_m_top -->
+            <ul class="gnb">
+                <li><a href="#">이용정보</a>
+                    <ul class="sub">
+                        <li><a href="#">사이버스테이션</a>
+                        </li>
+                        <li><a href="#">실시간열차운행정보</a>
+                        </li>
+                        <li><a href="#">간편지연증명서</a>
+
+                        </li>
+                        <li><a href="#">운임제도</a>
+
+                        </li>
+                        <li><a href="#">이용고객 편의시설</a>
+
+                        </li>
+                        <li><a href="#">역시설물 임시폐쇄 공사현황</a>
+
+                        </li>
+                        <li><a href="#">유실물센터</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">안전환경</a>
+                    <ul class="sub">
+                        <li><a href="#">안전가이드</a>
+
+                        </li>
+                        <li><a href="#">안전보건 경영방침</a>
+
+                        </li>
+                        <li><a href="#">안전장비 취급 및 현황</a>
+
+                        </li>
+                        <li><a href="#">안전경영방침</a>
+
+                        </li>
+                        <li><a href="#">지하철테러대응</a>
+
+                        </li>
+                        <li><a href="#">안전관련법령</a>
+
+                        </li>
+                        <li><a href="#">지하철 환경</a>
+
+                        </li>
+                        <li><a href="#">안전보고서</a>
+
+                        </li>
+                        <li><a href="#">안전동영상</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">시민참여</a>
+                    <ul class="sub">
+                        <li><a href="#">신청센터</a>
+
+                        </li>
+                        <li><a href="#">서울교통공사 견학</a>
+
+                        </li>
+                        <li><a href="#">시민초청 문화이벤트</a>
+
+                        </li>
+                        <li><a href="#">문화스테이션</a>
+
+                        </li>
+                        <li><a href="#">시민안전모니터</a>
+
+                        </li>
+                        <li><a href="#">고객의 소리</a>
+
+                        </li>
+                        <li><a href="#">고객서비스 헌장</a>
+
+                        </li>
+                        <li><a href="#">주민참여예산</a>
+
+                        </li>
+                        <li><a href="#">시민 아이디어</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">알림마당</a>
+                    <ul class="sub">
+                        <li><a href="#">공지사항</a>
+
+                        </li>
+                        <li><a href="#">보도자료</a>
+
+                        </li>
+                        <li><a href="#">입찰/계약정보</a>
+
+                        </li>
+                        <li><a href="#">부대사업정보</a>
+
+                        </li>
+                        <li><a href="#">자료실</a>
+
+                        </li>
+                        <li><a href="#">업무협의절차</a>
+
+                        </li>
+                        <li><a href="#">이달의 역세권 행사</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">정보공개</a>
+                    <ul class="sub">
+                        <li><a href="#">제도안내</a>
+
+                        </li>
+                        <li><a href="#">사전정보공표</a>
+
+                        </li>
+                        <li><a href="#">공공데이터개방</a>
+
+                        </li>
+                        <li><a href="#">반부패/청렴</a>
+
+                        </li>
+                        <li><a href="#">부조리신고센터</a>
+
+                        </li>
+                        <li><a href="#">개인정보처리방침</a>
+
+                        </li>
+                        <li><a href="#">정보목록</a>
+
+                        </li>
+                        <li><a href="#">정보공개청구</a>
+
+                        </li>
+                        <li><a href="#">결재문서/회의록</a>
+
+                        </li>
+                        <li><a href="#">청탁금지법</a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">공사소개</a>
+                    <ul class="sub">
+                        <li><a href="#">서울교통공사</a>
+
+                        </li>
+                        <li><a href="#">공사 이미지</a>
+
+                        </li>
+                        <li><a href="#">경영정보</a>
+
+                        </li>
+                        <li><a href="#">사회공헌</a>
+
+                        </li>
+                        <li><a href="#">채용정보</a>
+
+                        </li>
+                        <li><a href="#">인권경영</a>
+
+                        </li>
+                        <li><a href="#">적극행정</a>
+
+                        </li>
+                        <li><a href="#">관련법령 및 사규</a>
+
+                        </li>
+                        <li><a href="#">산업현황</a>
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- //.nav_m -->
+        <!-- pc 버전 -->
+        <div class="nav_bg"></div><!-- //.nav_bg -->
+        <nav>
+            <ul class="gnb">
+                <li><a href="#">이용정보</a>
+                    <ul class="sub">
+                        <li><a href="#">사이버스테이션</a>
+                            <ul class="sub2">
+                                <li><a href="#">사이버스테이션</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">실시간열차운행정보</a>
+                            <ul class="sub2">
+                                <li><a href="#">실시간열차운행정보</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">간편지연증명서</a>
+                            <ul class="sub2">
+                                <li><a href="#">간편지연증명서</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">운임제도</a>
+                            <ul class="sub2">
+                                <li><a href="#">운임안내</a></li>
+                                <li><a href="#">승차권안내</a></li>
+                                <li><a href="#">단체권운임안내</a></li>
+                                <li><a href="#">여객운송약관(1~8호선)</a></li>
+                                <li><a href="#">여객운송약관(9호선 2·3단계)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">이용고객 편의시설</a>
+                            <ul class="sub2">
+                                <li><a href="#">배려시설 현황</a></li>
+                                <li><a href="#">승강설비 가동현황</a></li>
+                                <li><a href="#">휠체어 이용 승·하차 안내</a></li>
+                                <li><a href="#">무인편의기기</a></li>
+                                <li><a href="#">문화공간</a></li>
+                                <li><a href="#">환승주차장</a></li>
+                                <li><a href="#">자전거 보관함</a></li>
+                                <li><a href="#">수유실</a></li>
+                                <li><a href="#">잠실광역환승센터</a></li>
+                                <li><a href="#">또타러기지(T-luggage)</a></li>
+                                <li><a href="#">또타스토리지(개인창고)</a></li>
+                                <li><a href="#">또타라커(T-Locker)</a></li>
+                                <li><a href="#">기계식 자전거주차장</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">역시설물 임시폐쇄 공사현황</a>
+                            <ul class="sub2">
+                                <li><a href="#">역시설물 임시폐쇄 공사현황</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">유실물센터</a>
+                            <ul class="sub2">
+                                <li><a href="#">이용안내</a></li>
+                                <li><a href="#">유실물센터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">안전환경</a>
+                    <ul class="sub">
+                        <li><a href="#">안전가이드</a>
+                            <ul class="sub2">
+                                <li><a href="#">안전수칙</a></li>
+                                <li><a href="#">열차내에서</a></li>
+                                <li><a href="#">승강설비 이용시</a></li>
+                                <li><a href="#">지진발생시</a></li>
+                                <li><a href="#">화재시</a></li>
+                                <li><a href="#">침수·폭우 예측시스템(서울안전누리)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">안전보건 경영방침</a>
+                            <ul class="sub2">
+                                <li><a href="#">안전보건 경영방침</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">안전장비 취급 및 현황</a>
+                            <ul class="sub2">
+                                <li><a href="#">안전장비 취급요령</a></li>
+                                <li><a href="#">역사 내 안전장비</a></li>
+                                <li><a href="#">열차 내 안전장비</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">안전경영방침</a>
+                            <ul class="sub2">
+                                <li><a href="#">안전경영방침</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">지하철테러대응</a>
+                            <ul class="sub2">
+                                <li><a href="#">지하철테러대응</a></li>
+                                <li><a href="#">자료실</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">안전관련법령</a>
+                            <ul class="sub2">
+                                <li><a href="#">안전관련법령</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">지하철 환경</a>
+                            <ul class="sub2">
+                                <li><a href="#">개요</a></li>
+                                <li><a href="#">측정결과</a></li>
+                                <li><a href="#">위생관리</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">안전보고서</a>
+                            <ul class="sub2">
+                                <li><a href="#">안전보고서</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">안전동영상</a>
+                            <ul class="sub2">
+                                <li><a href="#">안전동영상</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">시민참여</a>
+                    <ul class="sub">
+                        <li><a href="#">신청센터</a>
+                            <ul class="sub2">
+                                <li><a href="#">미술관 대관</a></li>
+                                <li><a href="#">시설물 촬영</a></li>
+                                <li><a href="#">지하철 사진 공모전</a></li>
+                                <li><a href="#">지하철 예술마당 신청</a></li>
+                                <li><a href="#">인재개발원 대관</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">서울교통공사 견학</a>
+                            <ul class="sub2">
+                                <li><a href="#">차량사업소견학</a></li>
+                                <li><a href="#">시민안전체험·홍보관</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">시민초청 문화이벤트</a>
+                            <ul class="sub2">
+                                <li><a href="#">참여하기</a></li>
+                                <li><a href="#">제안하기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">문화스테이션</a>
+                            <ul class="sub2">
+                                <li><a href="#">지하철 여행</a></li>
+                                <li><a href="#">문화갤러리</a></li>
+                                <li><a href="#">서울교통공사 웹진</a></li>
+                                <li><a href="#">지하철 예술마당</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">시민안전모니터</a>
+                            <ul class="sub2">
+                                <li><a href="#">안내</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">모니터링</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">고객의 소리</a>
+                            <ul class="sub2">
+                                <li><a href="#">이용 안내</a></li>
+                                <li><a href="#">자주 묻는 질문</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">고객서비스 헌장</a>
+                            <ul class="sub2">
+                                <li><a href="#">고객서비스 헌장</a></li>
+                                <li><a href="#">이행 표준</a></li>
+                                <li><a href="#">이행 실적</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">주민참여예산</a>
+                            <ul class="sub2">
+                                <li><a href="#">제안하기</a></li>
+                                <li><a href="#">연도별 사업추진 실적</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">시민 아이디어</a>
+                            <ul class="sub2">
+                                <li><a href="#">아이디어 보기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">알림마당</a>
+                    <ul class="sub">
+                        <li><a href="#">공지사항</a>
+                            <ul class="sub2">
+                                <li><a href="#">공지사항</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">보도자료</a>
+                            <ul class="sub2">
+                                <li><a href="#">보도자료</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">입찰/계약정보</a>
+                            <ul class="sub2">
+                                <li><a href="#">입찰안내</a></li>
+                                <li><a href="#">발주계획</a></li>
+                                <li><a href="#">사전규격공개</a></li>
+                                <li><a href="#">입찰공고 및 결과</a></li>
+                                <li><a href="#">계약현황</a></li>
+                                <li><a href="#">대금지급안내</a></li>
+                                <li><a href="#">영세율공급증명 발급</a></li>
+                                <li><a href="#">제안서 평가결과</a></li>
+                                <li><a href="#">건설공사/하도급계약현황</a></li>
+                                <li><a href="#">실적증명서 발급</a></li>
+                                <li><a href="#">수의계약내역 및 실적</a></li>
+                                <li><a href="#">계약자료실</a></li>
+                                <li><a href="#">계약내용 변경사항</a></li>
+                                <li><a href="#">감리·감독·검사 현황</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">부대사업정보</a>
+                            <ul class="sub2">
+                                <li><a href="#">광고시설물</a></li>
+                                <li><a href="#">편의시설물</a></li>
+                                <li><a href="#">역구내상가</a></li>
+                                <li><a href="#">자주묻는질문</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">자료실</a>
+                            <ul class="sub2">
+                                <li><a href="#">자료실</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">업무협의절차</a>
+                            <ul class="sub2">
+                                <li><a href="#">인접굴착공사</a></li>
+                                <li><a href="#">연결통로설치</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">이달의 역세권 행사</a>
+                            <ul class="sub2">
+                                <li><a href="#">이달의 역세권 행사</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">정보공개</a>
+                    <ul class="sub">
+                        <li><a href="#">제도안내</a>
+                            <ul class="sub2">
+                                <li><a href="#">정보공개제도란</a></li>
+                                <li><a href="#">관련규정</a></li>
+                                <li><a href="#">관련서식</a></li>
+                                <li><a href="#">비공개대상정보 세부기준</a></li>
+                                <li><a href="#">자주 청구하는 항목 안내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">사전정보공표</a>
+                            <ul class="sub2">
+                                <li><a href="#">사전정보 공표목록</a></li>
+                                <li><a href="#">업무추진비</a></li>
+                                <li><a href="#">자주 조회하는 사전정보</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">공공데이터개방</a>
+                            <ul class="sub2">
+                                <li><a href="#">공공데이터개방</a></li>
+                                <li><a href="#">공공데이터 수요조사</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">반부패/청렴</a>
+                            <ul class="sub2">
+                                <li><a href="#">반부패/청렴관련 사규</a></li>
+                                <li><a href="#">반부패/청렴활동 자료실</a></li>
+                                <li><a href="#">부패공직자 현황 공개</a></li>
+                                <li><a href="#">청렴도 및 시책평가 결과</a></li>
+                                <li><a href="#">실시간 민원소통 모니터링</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">부조리신고센터</a>
+                            <ul class="sub2">
+                                <li><a href="#">인사비리 제보신고</a></li>
+                                <li><a href="#">공직자비리신고</a></li>
+                                <li><a href="#">갑의 부당행위 신고</a></li>
+                                <li><a href="#">예산낭비신고센터</a></li>
+                                <li><a href="#">상가무단전대양도신고</a></li>
+                                <li><a href="#">계약관련 부조리 신고</a></li>
+                                <li><a href="#">하도급부조리 신고</a></li>
+                                <li><a href="#">부패비리 변호사 대리신고</a></li>
+                                <li><a href="#">공익신고</a></li>
+                                <li><a href="#">공공재정 부정청구행위 신고</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">개인정보처리방침</a>
+                            <ul class="sub2">
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">영상정보운영방침</a></li>
+                                <li><a href="#">개인정보삭제현황</a></li>
+                                <li><a href="#">목적외 이용·제3자 제공 내역</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">정보목록</a>
+                            <ul class="sub2">
+                                <li><a href="#">정보목록(기록물생산현황)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">정보공개청구</a>
+                            <ul class="sub2">
+                                <li><a href="#">정보공개청구</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">결재문서/회의록</a>
+                            <ul class="sub2">
+                                <li><a href="#">결재문서(서울시 연계)</a></li>
+                                <li><a href="#">회의록</a></li>
+                                <li><a href="#">위원회운영현황</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">청탁금지법</a>
+                            <ul class="sub2">
+                                <li><a href="#">청탁금지법 자료실</a></li>
+                                <li><a href="#">청탁금지법 위반행위 신고</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">공사소개</a>
+                    <ul class="sub">
+                        <li><a href="#">서울교통공사</a>
+                            <ul class="sub2">
+                                <li><a href="#">CEO 인사말</a></li>
+                                <li><a href="#">조직도 및 업무안내</a></li>
+                                <li><a href="#">찾아오시는 길</a></li>
+                                <li><a href="#">사이버역사관</a></li>
+                                <li><a href="#">서울교통공사 Now</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">공사 이미지</a>
+                            <ul class="sub2">
+                                <li><a href="#">기관상징(CI·슬로건)</a></li>
+                                <li><a href="#">캐릭터</a></li>
+                                <li><a href="#">로고송</a></li>
+                                <li><a href="#">홍보자료</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">경영정보</a>
+                            <ul class="sub2">
+                                <li><a href="#">개요 및 연혁</a></li>
+                                <li><a href="#">운행현황</a></li>
+                                <li><a href="#">경영목표</a></li>
+                                <li><a href="#">사업계획</a></li>
+                                <li><a href="#">예산서</a></li>
+                                <li><a href="#">회계결산</a></li>
+                                <li><a href="#">외부경영평가</a></li>
+                                <li><a href="#">요청사항(지시사항) 현황</a></li>
+                                <li><a href="#">재무제표</a></li>
+                                <li><a href="#">내부감사활동</a></li>
+                                <li><a href="#">ESG채권 발행 현황</a></li>
+                                <li><a href="#">외부감사활동</a></li>
+                                <li><a href="#">이사회 의결</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">사회공헌</a>
+                            <ul class="sub2">
+                                <li><a href="#">비전 및 실행과제</a></li>
+                                <li><a href="#">사회공헌 활동</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">채용정보</a>
+                            <ul class="sub2">
+                                <li><a href="#">채용정보 </a></li>
+                                <li><a href="#">인재상</a></li>
+                                <li><a href="#">인사제도</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">인권경영</a>
+                            <ul class="sub2">
+                                <li><a href="#">인권경영 소개</a></li>
+                                <li><a href="#">인권경영 소식</a></li>
+                                <li><a href="#">인권침해 신고</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">적극행정</a>
+                            <ul class="sub2">
+                                <li><a href="#">제도소개</a></li>
+                                <li><a href="#">실행계획</a></li>
+                                <li><a href="#">자료실</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">관련법령 및 사규</a>
+                            <ul class="sub2">
+                                <li><a href="#">정관 및 사규</a></li>
+                                <li><a href="#">관련법령</a></li>
+                                <li><a href="#">사규제개정 및 폐기예고</a></li>
+                                <li><a href="#">법률고문현황</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">산업현황</a>
+                            <ul class="sub2">
+                                <li><a href="#">산업재산권현황</a></li>
+                                <li><a href="#">신사업개발현황</a></li>
+                                <li><a href="#">철도사업현황</a></li>
+                                <li><a href="#">기술연구자료실</a></li>
+                                <li><a href="#">교통정책자료실</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="searchInput">
+            <button class="back"><i class="fa-solid fa-chevron-left"></i></button>
+            <form action="#" method="get">
+                <input type="text" value="검색어를 입력하세요">
+                <button type="button" class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div class="h_right">
+            <!-- <button type="button"></button> -->
+            <select name="lang" id="lang">
+                <option value="">language</option>
+                <option value="english">english</option>
+                <option value="chinese">chinese</option>
+                <option value="japanese">japanese</option>
+            </select>
+            <!-- <i class="fa-solid fa-chevron-down"></i> -->
+        </div><!-- //.h_right -->
+    </header>
+    <main>
+        <div class="main_visual">
+            <div class="container">
+                <ul class="slide">
+                    <li class="active">
+                        <img src="img/banner1.png" alt="">
+                        <a href="#">
+                            <strong>안전한 도시철도, 편리한 교통 서비스</strong>
+                            <p>서울교통공사가 도시교통의 미래를 만들어 갑니다.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/banner2.png" alt="">
+                        <a href="#">
+                            <strong>오늘도 수고하셨습니다!</strong>
+                            <p>서울교통공사가 당신의 하루를 응원합니다.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/banner3.png" alt="">
+                        <a href="#">
+                            <strong>하반기 신입사원 공개채용 공고</strong>
+                            <p>서울교통공사에서 도전정신을 가진 인재를 모집합니다.</p>
+                        </a>
+                    </li>
+                </ul><!-- //.slide -->
+                <div class="control">
+                    <div class="pause_play">
+                        <div class="pause active"><i class="fa fa-pause" aria-hidden="true"></i></div><!-- //.pause -->
+                        <div class="play"><i class="fa fa-play" aria-hidden="true"></i></div><!-- //.play -->
+                    </div><!-- //.pause_play -->
+                    <ul class="pager">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                    </ul><!-- //.pager -->
+                </div><!-- //.control -->
+                <form class="way" name="searchWay">
+                    <input type="text" placeholder="출발역을 입력하세요">
+                    <button type="button"><img src="img/switch.svg" alt="출발역과 도착역 바꾸기"></button>
+                    <input type="text" placeholder="도착역을 입력하세요">
+                    <a><i class="fa-solid fa-magnifying-glass"></i>노선검색</a>
+                </form><!-- //.way -->
+            </div><!-- //.container -->
+        </div><!-- //.main_visual -->
+        <section class="service container">
+            <h2>자주 찾는 서비스</h2>
+            <ul>
+                <li><a href="#">
+                        <img src="img/serS1.svg" alt="역 검색">
+                        <span>역 검색</span></a></li>
+                <li><a href="#">
+                        <img src="img/serS2.svg" alt="운임안내">
+                        <span>운임안내</span></a></li>
+                <li><a href="#">
+                        <img src="img/serS3.svg" alt="간편지연증명서">
+                        <span>간편지연증명서</span></a></li>
+                <li><a href="#">
+                        <img src="img/serS4.svg" alt="유실물 찾기">
+                        <span>유실물 찾기</span></a></li>
+                <li><a href="#">
+                        <img src="img/serS5.svg" alt="고객의 소리">
+                        <span>고객의 소리</span></a></li>
+            </ul>
+        </section><!-- //.service -->
+        <div class="news">
+            <section class="notice container">
+                <h2>알립니다</h2>
+                <ul class="notice__category">
+                    <li class="active"><button type="button">공지사항</button>
+                        <div class="swiper newsSwiper">
+                            <div class="prev_next_more">
+                                <button type="button" class="swiper-button-prev"><i
+                                        class="fa-solid fa-chevron-left"></i></button>
+                                <button type="button" class="swiper-button-next"><i
+                                        class="fa-solid fa-chevron-right"></i></button>
+                                <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
+                            <ul class="notice__contents swiper-wrapper">
+                                <li class="swiper-slide"><a href="#"><span>2023. 09. 26</span><span
+                                            class="category">공지사항</span>
+                                        <h4>도시철도 운임 조정 안내</h4>
+                                        <p>2023. 10. 7.(토) 영업시작부터 도시철도 기본운임을 조정하오니 열차이용에 참고하시기 바랍니다.</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 07</span><span
+                                            class="category"></span>
+                                        <h4>메트로미술관 폐관 예정 알림('24.1.1.~)</h4>
+                                        <p>서울 미래 유산인 경복궁역 대합실을 원형으로 복원하고 역 내 통행하는 시민 안전과 편의롤 도모하고자 24년 1월 1일부로 3호선
+                                            경복궁
+                                            내부에 위치한 메트로미술관 대관을 중단할 예정입니다. 그동안 메트로미술관을 이용하여 주신 시민분들께 감사드립니다.</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 11. 20</span><span
+                                            class="category"></span>
+                                        <h4>전국장애인차별철폐연대 시위 안내('23.11.13.~ )</h4>
+                                        <p> '23.11.13.부터 4호선 혜화역 등에서 매일 오전8시, 오후 6시에 전국장애인차별철폐연대의 시위가 예정되어 있습니다.
+                                            이로 인해 시위가 발생한 해당 구간 열차 운행이 상당시간 지연될 수 있으며,
+                                            상황에 따라 해당 역을 무정차 통과할 예정이오니, 이점 참고하시어
+                                            열차를 이용해 주시기 바랍니다.</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 22</span><span
+                                            class="category"></span>
+                                        <h4>통화장치 연결음 음원사용 저작자표시 안내</h4>
+                                        <p>구재영에 의해 창작된 샤이니스는 크리에이티브 커먼즈 저작자표시 4.0 국제 라이선스에 따라 이용할 수 있습니다.
+
+                                            저작물명 : 샤이니스
+
+                                            저작(권)자 : 박진우, 구재영</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 15</span><span
+                                            class="category"></span>
+                                        <h4>SNS 만족도 설문조사 이벤트 당첨자 안내</h4>
+                                        <p>SNS 만족도 설문조사 이벤트 당첨자 안내
+                                            ○ 대상인원: 2,581명 (총 응답인원 2,626명 중 중복, 미응답자 제외)
+
+                                            ○ 당첨인원 : 총 35명
+
+                                            - 감사실 직원 입회하에 공사 추첨 프로그램 이용하여 선정
+
+                                            ○ 경품내용 : 모바일 상품권 1만원권
+
+                                            - '23. 12. 19.(화) 발송 예정
+
+                                            ○ 경품지급 : 당첨자에 한해 당첨내역 문자 전송</p>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><button type="button">보도자료</button>
+                        <div class="swiper newsSwiper">
+                            <div class="prev_next_more">
+                                <button type="button" class="swiper-button-prev"><i
+                                        class="fa-solid fa-chevron-left"></i></button>
+                                <button type="button" class="swiper-button-next"><i
+                                        class="fa-solid fa-chevron-right"></i></button>
+                                <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
+                            <ul class="notice__contents swiper-wrapper">
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 04</span><span
+                                            class="category"></span>
+                                        <h4>“언어장벽 없는 지하철, 외국인 관광객 만족 기대” 외국어 동시 대화 시스템 명동역서 시범 개시</h4>
+                                        <p>- 4일부터 명동역서 시범 운영 후 내년 홍대입구역 등 5개 역에 확대 시행 예정
+
+                                            - 13개언어로실시간동시대화및경로검색·요금안내등신속·정확한지하철이용정보제공
+
+                                            - “향후 모바일 기기와 연동으로 편의성과 활용성 높여 외국인 관광객 만족도 높일 것</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 04</span><span
+                                            class="category"></span>
+                                        <h4>서울교통공사, 1호선 열차 신호 장치 개선으로 급정거 0건 ...권익위 적극 행정 우수사례</h4>
+                                        <p>- 서울교통공사, 1호선 전동차 ATS차상 신호 장치 아날로그에서 디지털 방식으로 개선
+
+                                            - 급정거 발생 예방으로 승객전도 등 안전사고 22명→0명, 피해보상액 1300만 원→0원
+
+                                            - 권익위 적극 행정 국민신청에 힘입어 사업 추진 당위성 얻어...권익위, 격려차 공사 방문
+
+                                            - 백호 사장 “적극 행정 제도 덕분에 중대 시민재해 예방,공익적 문제해결 선도에 감사</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 11. 28</span><span
+                                            class="category"></span>
+                                        <h4>전국장애인차별철폐연대 시위에 2호선 47분 지연... 공사, “시민 보호 최우선, 역사 진입 원천 봉쇄할 것”</h4>
+                                        <p>- 전국장애인차별철폐연대,지하철 운행방해 시위 20일 재개...3년 간 누적지연 86시간
+
+                                            - 공사, 역사 진입 차단·승차 제한·불법행위 법적 대응의 3단계 강경 대응안 마련
+
+                                            - 백호 사장 “무관용 원칙에 입각해 적극 대응, 시민의 안전 반드시 지켜낼 것</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 11. 28</span><span
+                                            class="category"></span>
+                                        <h4>서울교통공사, 지하철 역사 미세먼지 낮추는 환기 덕트 청소 신기술 공모 나섰다</h4>
+                                        <p>- 11.22.(수) 환기덕트내부청소신기술공모및현장시연평가를통해우수한기술선정
+
+                                            - 지하 공간 특성상 환기 덕트로 신선한 공기 공급…1년에 20역씩 선정하여 청소
+
+                                            - “미세먼지 저감위해 공사 다양한 노력 중…청소 강화 및 노후 환기설비 교체할</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 11. 22</span><span
+                                            class="category"></span>
+                                        <h4>서울교통공사, 임단협 타결...22일 지하철 정상 운행</h4>
+                                        <p>- 서울교통공사사· , 21일오후9시25분경임단협협상최종합의...지하철정상운행
+
+                                            - 합의안에 안전인력 확보, 경영 합리화 대화 지속, 행안부 지적사항 개선 등 담아
+
+                                            -백호사장“시민의신뢰와사랑되찾을수있도록안전과서비스증진에매진할것</p>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><button type="button">채용정보</button>
+                        <div class="swiper newsSwiper">
+                            <div class="prev_next_more">
+                                <button type="button" class="swiper-button-prev"><i
+                                        class="fa-solid fa-chevron-left"></i></button>
+                                <button type="button" class="swiper-button-next"><i
+                                        class="fa-solid fa-chevron-right"></i></button>
+                                <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            </div>
+                            <ul class="notice__contents swiper-wrapper">
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 22</span><span
+                                            class="category"></span>
+                                        <h4>서울교통공사 도봉차량사업소 기간제업무직(조리원) 공개채용 면접전형 합격자 공고</h4>
+                                        <p>서울교통공사 도봉차량사업소 구내식당 기간제업무직(조리원) 공개 채용
+
+                                            면접전형 합격자를 다음과 같이 공고합니다.</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 22</span><span
+                                            class="category"></span>
+                                        <h4>서해철도(주) 단기 기간제 업무직 공개채용 공고</h4>
+                                        <p>수도권 서남부지역 철도운영회사인 서해철도주식회사(서울교통공사 자회사)에서는 서해선 소사(부천)~원시(안산)
+
+                                            총 12개 역사 운영 및 시설물 유지관리 업무를 수행하고 있으며, 역량을 갖춘 인재를 모집합니다.</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 21</span><span
+                                            class="category"></span>
+                                        <h4>지티엑스에이운영 주식회사 신입직원 채용 면접전형 합격자 및 채용신체검사 등 안</h4>
+                                        <p>지티엑스에이운영 주식회사 신입직원 공개채용 면접전형
+
+                                            합격자 및 신체검사 등 일정을 다음과 같이 안내합니다.</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 21</span><span
+                                            class="category"></span>
+                                        <h4>서울교통공사 군자차량사업소 기간제업무직(조리원)</h4>
+                                        <p>서울교통공사 군자차량사업소에서 함께 근무할 기간제업무직(조리원)
+
+                                            공개 채용 계획을 다음과 같이 공고합니다.</p>
+                                    </a></li>
+                                <li class="swiper-slide"><a href="#"><span>2023. 12. 21</span><span
+                                            class="category"></span>
+                                        <h4>서울교통공사 지축차량사업소 기간제업무직(조리원) 서류전형 합격자 통보 및 면접전형 안내</h4>
+                                        <p>기간제업무직 공개채용 서류전형 합격자 통보 및 면접전형 안내
+
+                                            서울교통공사 지축차량사업소 기간제업무직(조리원) 공개채용 서류전형 합격자 및 면접전형 일정을 다음과 같이 알려드립니다.</p>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul><!-- //.notice__category -->
+            </section><!-- //.notice -->
+            <section class="clean container">
+                <div class="text">
+                    <h2>서울교통공사</h2>
+                    <p>청렴한 오늘의 당신, 발전하는 내일</p>
+                </div><!-- //.text -->
+                <div class="go">
+                    <a href="#">비리신고센터</a>
+                    <a href="#">청렴도 및<br>
+                        시책평가 결과</a>
+                    <a href="#">부패<br>
+                        공직자 현황</a>
+                    <a href="#">조직도<br>
+                        및 업무</a>
+                </div>
+            </section><!-- //.clean -->
+        </div><!-- //.news -->
+        <div class="event container">
+            <section class="citizen">
+                <h2>시민 참여 행사</h2>
+                <ul>
+                    <li><a href="#">
+                            <div class="name"><img src="img/citizen1.svg" alt="서울교통공사 견학">
+                                <span>서울교통공사 견학</span>
+                            </div>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <div class="name"><img src="img/citizen2.svg" alt="미술관 대관 신청">
+                                <span>미술관 대관 신청</span>
+                            </div>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <div class="name"><img src="img/citizen3.svg" alt="예술마당 공연 신청">
+                                <span>예술마당 공연 신청</span>
+                            </div>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section><!-- //.citizen -->
+            <section class="swiper ev_ma">
+                <h2>이벤트 & 웹매거진</h2>
+                <div class="prev_next_more">
+                    <button type="button" class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button type="button" class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></button>
+                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                </div>
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="img/ev1.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="img/ev2.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="img/ev3.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="img/ev4.png" alt=""></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="img/ev5.png" alt=""></a></li>
+                </ul>
+            </section><!-- //.ev_ma -->
+        </div><!-- //.event -->
+    </main>
+    <footer>
+        <div class="f_top">
+            <div class="container">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">업무추진비 사용내역</a></li>
+                    <li><a href="#">관련 법령 및 사규</a></li>
+                    <li><a href="#">사규 제·개정 및 폐기 예고</a></li>
+                    <li><a href="#">여객운송약관</a></li>
+                </ul>
+                <form action="#">
+                    <select name="familySites" id="fam">
+                        <option value="">유관기관 바로가기</option>
+                        <option value="코레일">코레일</option>
+                        <option value="서울시메트로9호선">서울시메트로9호선</option>
+                        <option value="인천교통공사">인천교통공사</option>
+                        <option value="공항철도">공항철도</option>
+                        <option value="신분당선주식회사">신분당선주식회사</option>
+                        <option value="경기철도주식회사">경기철도주식회사</option>
+                        <option value="서해철도(주)">서해철도(주)</option>
+                        <option value="부산교통공사">부산교통공사</option>
+                    </select>
+                    <input type="submit" value="GO" />
+                </form>
+            </div><!-- //.container -->
+        </div><!-- //.f_top -->
+        <div class="f_bottom">
+            <div class="container">
+                <div class="f_bottom_left">
+                    <img src="img/f_logo.svg" alt="서울교통공사">
+                    <p>04806 서울특별시 성동구 천호대로 346<br>
+                        Copyright 2017. 서울교통공사 All right reserved</p>
+                </div><!-- //.f_bottom_left -->
+                <div class="f_bottom_right">
+                    <span>대표전화 1577-1234</span>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-threads"></i></a></li>
+                    </ul>
+                </div><!-- //.f_bottom_right -->
+            </div><!-- //.container -->
+        </div><!-- //.f_bottom -->
+
+    </footer>
+</body>
+
+</html>
